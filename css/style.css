@@ -1,0 +1,34 @@
+/*
+background color: #432e8b;
+color: #00dde4;
+*/
+
+
+section{
+	width: 100%;
+	background: #432e8b;
+	padding: 100px 0;
+}
+.image{
+	height: 264px;
+    width: 276px;
+    background: #00dde4;
+    position: relative;
+}
+.image img{
+	display: block;
+	position: absolute;
+	top: 20px;
+    left: 20px;
+}
+
+
+
+/*media query*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.col-md-4{
+		margin-left: 15px;
+    	padding-bottom: 50px;
+	}
+}
